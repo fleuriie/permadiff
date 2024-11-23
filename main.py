@@ -95,11 +95,16 @@ def diff_save(scrape: scrape_result):
     diff_files = [f for f in os.listdir(subdir) if f.endswith(".diff")]
     diff_files.sort()
     for diff_file in diff_files:
-        with open(subdir / diff_file, "r") as f:
+        # with open(subdir / diff_file, "r") as f:
+        #     delta = f.read()
+        #     diffs = dmp.diff_fromDelta(html, delta)
+        #     # diff = json.loads(f.read())
+        #     html = dmp.patch_apply(dmp.patch_make(diffs), html)[0]
+        with gzip.open(subdir / diff_file, "rt") as f:
             delta = f.read()
             diffs = dmp.diff_fromDelta(html, delta)
-            # diff = json.loads(f.read())
             html = dmp.patch_apply(dmp.patch_make(diffs), html)[0]
+            print(html)
 
     # diff the current html with the new html
 
@@ -108,11 +113,14 @@ def diff_save(scrape: scrape_result):
 
     # save the diff
 
-    diff_file = subdir / f"{this_time}.diff"
-    with open(diff_file, "w") as f:
+    with gzip.open(subdir / f"{this_time}.diff", "wt") as f:
         f.write(delta)
 
+    # diff_file = subdir / f"{this_time}.diff"
+    # with open(diff_file, "w") as f:
+    #     f.write(delta)
 
-result = scrape_url("https://news.google.com/")
+
+result = scrape_url("https://amazon.com/")
 if not result is None:
     diff_save(result)
