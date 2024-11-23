@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from typing import NewType
 from sys import getsizeof
 from pathlib import Path
+from time import sleep
 import requests
 import hashlib
 import gzip
@@ -25,6 +26,10 @@ scrape_result = NewType("scrape_result", tuple[str, str, str])
 
 cwf = Path(__file__)
 cwd = cwf.parent
+
+# cache for website htmls
+
+cache = {}
 
 
 #############
@@ -53,8 +58,7 @@ def sanitized_url(url: str) -> str:
 def scrape_url(url: str) -> scrape_result | None:
     response = requests.get(url)
 
-    return scrape_result((url, datetime.now().strftime("%Y_%m_%d_%H_%M_%S"), str(response.content)))
-    if response.status_code != 200:
+    if response.status_code != 200 and response.content is None:
         # fail to get page, perhaps throw error?
         return None
 
@@ -79,34 +83,36 @@ def diff_save(scrape: scrape_result):
     if not os.path.exists(subdir):
         os.makedirs(subdir)
 
-    # ensure that source.html exists
+    # try to get html from cache if possible
 
-    if not os.path.exists(subdir / "source.html"):
-        with open(subdir / "source.html", "w") as f:
-            f.write(this_html)
+    if safe_url in cache:
+        print(f"Using cached html for {this_url}")
+        html = cache[safe_url]
+    else:
+        # ensure that source.html exists
 
-    # load source.html
+        if not os.path.exists(subdir / "source.html"):
+            with open(subdir / "source.html", "w") as f:
+                f.write(this_html)
 
-    with open(subdir / "source.html", "r") as f:
-        html = f.read()
+        # load source.html
 
-    # apply all diffs in the form of <date>.diff in order
+        with open(subdir / "source.html", "r") as f:
+            html = f.read()
 
-    diff_files = [f for f in os.listdir(subdir) if f.endswith(".diff")]
-    diff_files.sort()
-    for diff_file in diff_files:
-        # with open(subdir / diff_file, "r") as f:
-        #     delta = f.read()
-        #     diffs = dmp.diff_fromDelta(html, delta)
-        #     # diff = json.loads(f.read())
-        #     html = dmp.patch_apply(dmp.patch_make(diffs), html)[0]
-        with gzip.open(subdir / diff_file, "rt") as f:
-            delta = f.read()
-            diffs = dmp.diff_fromDelta(html, delta)
-            html = dmp.patch_apply(dmp.patch_make(diffs), html)[0]
-            print(html)
+        # apply all diffs in the form of <date>.diff in order
 
-    # diff the current html with the new html
+        diff_files = [f for f in os.listdir(subdir) if f.endswith(".diff")]
+        diff_files.sort()
+        for diff_file in diff_files:
+            with gzip.open(subdir / diff_file, "rt") as f:
+                delta = f.read()
+                diffs = dmp.diff_fromDelta(html, delta)
+                html = dmp.patch_apply(dmp.patch_make(diffs), html)[0]
+
+    cache[safe_url] = this_html
+
+    # diff the current html with the new html, stores as a delta
 
     diffs = dmp.diff_main(html, this_html)
     delta = dmp.diff_toDelta(diffs)
@@ -116,11 +122,42 @@ def diff_save(scrape: scrape_result):
     with gzip.open(subdir / f"{this_time}.diff", "wt") as f:
         f.write(delta)
 
-    # diff_file = subdir / f"{this_time}.diff"
-    # with open(diff_file, "w") as f:
-    #     f.write(delta)
 
+def period_snapshot(
+    url: str,
+    days: int = 0,
+    hours: int = 0,
+    minutes: int = 0,
+    seconds: int = 0
+):
+    if not any([days, hours, minutes, seconds]):
+        raise ValueError("At least one time unit must be non-zero.")
 
-result = scrape_url("https://amazon.com/")
-if not result is None:
-    diff_save(result)
+    interval = seconds + minutes*60 + hours*3600 + days*86400
+
+    # run scrape_url every <seconds> seconds
+    # and diff_save the result
+
+    while True:
+        print(
+            f"Attempting scrape of {url} at:",
+            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        )
+        result = scrape_url(url)
+
+        if not result is None:
+            print("Scraped successfully.")
+            diff_save(result)
+            print("Diff saved.")
+        else:
+            print("Failed to scrape.")
+
+        print()
+        sleep(interval)
+
+########
+# MAIN #
+########
+
+if __name__ == "__main__":
+    period_snapshot("https://www.news.google.com", seconds=2)
