@@ -71,7 +71,7 @@ def scrape_url(url: str) -> scrape_result | None:
     return scrape_result((url, dt, html))
 
 
-def diff_save(scrape: scrape_result):
+def save(scrape: scrape_result, diff: bool = True):
     this_url, this_time, this_html = scrape
     safe_url = sanitized_url(this_url)
     html = None
@@ -83,6 +83,13 @@ def diff_save(scrape: scrape_result):
     if not os.path.exists(subdir):
         os.makedirs(subdir)
 
+    # just store it raw if diff is false
+
+    if not diff:
+        with gzip.open(subdir / f"{this_time}.html", "wt") as f:
+            f.write(this_html)
+        return
+
     # try to get html from cache if possible
 
     if safe_url in cache:
@@ -92,12 +99,12 @@ def diff_save(scrape: scrape_result):
         # ensure that source.html exists
 
         if not os.path.exists(subdir / "source.html"):
-            with open(subdir / "source.html", "w") as f:
+            with gzip.open(subdir / "source.html", "wt") as f:
                 f.write(this_html)
 
         # load source.html
 
-        with open(subdir / "source.html", "r") as f:
+        with gzip.open(subdir / "source.html", "rt") as f:
             html = f.read()
 
         # apply all diffs in the form of <date>.diff in order
@@ -128,7 +135,8 @@ def period_snapshot(
     days: int = 0,
     hours: int = 0,
     minutes: int = 0,
-    seconds: int = 0
+    seconds: int = 0,
+    diff: bool = True
 ):
     if not any([days, hours, minutes, seconds]):
         raise ValueError("At least one time unit must be non-zero.")
@@ -147,17 +155,22 @@ def period_snapshot(
 
         if not result is None:
             print("Scraped successfully.")
-            diff_save(result)
-            print("Diff saved.")
+            if diff:
+                save(result, diff=True)
+                print("Diff saved.")
+            else:
+                save(result, diff=False)
+                print("Raw saved.")
         else:
             print("Failed to scrape.")
 
         print()
         sleep(interval)
 
+
 ########
 # MAIN #
 ########
 
 if __name__ == "__main__":
-    period_snapshot("https://www.news.google.com", seconds=2)
+    period_snapshot("https://www.news.google.com", seconds=2, diff=False)
