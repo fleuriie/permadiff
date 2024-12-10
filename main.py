@@ -1,10 +1,11 @@
 from diff_match_patch import diff_match_patch
 from datetime import datetime
 from bs4 import BeautifulSoup
+from time import sleep, time
 from typing import NewType
 from sys import getsizeof
 from pathlib import Path
-from time import sleep
+import statistics
 import requests
 import hashlib
 import gzip
@@ -58,6 +59,7 @@ def sanitized_url(url: str) -> str:
 def scrape_url(url: str) -> scrape_result | None:
     response = requests.get(url)
 
+    print(response.status_code)
     if response.status_code != 200 and response.content is None:
         # fail to get page, perhaps throw error?
         return None
@@ -105,18 +107,27 @@ def save(scrape: scrape_result, diff: bool = True):
         # load source.html
 
         with gzip.open(subdir / "source.html", "rt") as f:
+            start = time()
             html = f.read()
+            print(f"Raw read time: {time() - start:.5f}")
 
         # apply all diffs in the form of <date>.diff in order
 
+        patch_times = []
         diff_files = [f for f in os.listdir(subdir) if f.endswith(".diff")]
         diff_files.sort()
         for diff_file in diff_files:
             with gzip.open(subdir / diff_file, "rt") as f:
+                start = time()
                 delta = f.read()
                 diffs = dmp.diff_fromDelta(html, delta)
                 html = dmp.patch_apply(dmp.patch_make(diffs), html)[0]
+                patch_times.append(time() - start)
 
+        if len(patch_times) > 1:
+            print(f"Patch times: {patch_times}")
+            print(f"Average patch time: {sum(patch_times)/len(patch_times):.5f}")
+            print(f"STDDEV patch time: {statistics.stdev(patch_times):.5f}")
     cache[safe_url] = this_html
 
     # diff the current html with the new html, stores as a delta
@@ -136,7 +147,8 @@ def period_snapshot(
     hours: int = 0,
     minutes: int = 0,
     seconds: int = 0,
-    diff: bool = True
+    diff: bool = True,
+    iterations: int = -1
 ):
     if not any([days, hours, minutes, seconds]):
         raise ValueError("At least one time unit must be non-zero.")
@@ -146,7 +158,11 @@ def period_snapshot(
     # run scrape_url every <seconds> seconds
     # and diff_save the result
 
-    while True:
+    latency = []
+
+    iteration = 0
+    while iterations == -1 or iteration < iterations:
+        iteration += 1
         print(
             f"Attempting scrape of {url} at:",
             datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -155,12 +171,18 @@ def period_snapshot(
 
         if not result is None:
             print("Scraped successfully.")
+            start = time()
             if diff:
                 save(result, diff=True)
                 print("Diff saved.")
             else:
                 save(result, diff=False)
                 print("Raw saved.")
+            latency.append(time() - start)
+            print(f"Latency: {latency[-1]:.3f} seconds.")
+            print(f"Average: {sum(latency)/len(latency):.5f} seconds")
+            if len(latency) > 1:
+                print(f"STDDEV: {statistics.stdev(latency):.5f}")
         else:
             print("Failed to scrape.")
 
@@ -173,4 +195,16 @@ def period_snapshot(
 ########
 
 if __name__ == "__main__":
-    period_snapshot("https://www.news.google.com", seconds=2, diff=False)
+    url = "https://news.google.com/"
+    period_snapshot(
+        url,
+        seconds=30,
+        diff=True,
+        iterations=20
+    )
+    period_snapshot(
+        url,
+        seconds=30,
+        diff=False,
+        iterations=20
+    )
