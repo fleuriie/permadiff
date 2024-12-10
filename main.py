@@ -2,10 +2,11 @@ from diff_match_patch import diff_match_patch
 from datetime import datetime
 from bs4 import BeautifulSoup
 from time import sleep, time
-from typing import NewType
+from typing import NewType, List
 from sys import getsizeof
 from pathlib import Path
 import statistics
+import threading
 import requests
 import hashlib
 import gzip
@@ -126,7 +127,8 @@ def save(scrape: scrape_result, diff: bool = True):
 
         if len(patch_times) > 1:
             print(f"Patch times: {patch_times}")
-            print(f"Average patch time: {sum(patch_times)/len(patch_times):.5f}")
+            print(
+                f"Average patch time: {sum(patch_times)/len(patch_times):.5f}")
             print(f"STDDEV patch time: {statistics.stdev(patch_times):.5f}")
     cache[safe_url] = this_html
 
@@ -142,7 +144,7 @@ def save(scrape: scrape_result, diff: bool = True):
 
 
 def period_snapshot(
-    url: str,
+    urls: List[str],
     days: int = 0,
     hours: int = 0,
     minutes: int = 0,
@@ -163,30 +165,31 @@ def period_snapshot(
     iteration = 0
     while iterations == -1 or iteration < iterations:
         iteration += 1
-        print(
-            f"Attempting scrape of {url} at:",
-            datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        )
-        result = scrape_url(url)
+        for url in urls:
+            print(
+                f"Attempting scrape of {url} at:",
+                datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            )
+            result = scrape_url(url)
 
-        if not result is None:
-            print("Scraped successfully.")
-            start = time()
-            if diff:
-                save(result, diff=True)
-                print("Diff saved.")
+            if not result is None:
+                print("Scraped successfully.")
+                start = time()
+                if diff:
+                    save(result, diff=True)
+                    print("Diff saved.")
+                else:
+                    save(result, diff=False)
+                    print("Raw saved.")
+                latency.append(time() - start)
+                print(f"Latency: {latency[-1]:.3f} seconds.")
+                print(f"Average: {sum(latency)/len(latency):.5f} seconds")
+                if len(latency) > 1:
+                    print(f"STDDEV: {statistics.stdev(latency):.5f}")
             else:
-                save(result, diff=False)
-                print("Raw saved.")
-            latency.append(time() - start)
-            print(f"Latency: {latency[-1]:.3f} seconds.")
-            print(f"Average: {sum(latency)/len(latency):.5f} seconds")
-            if len(latency) > 1:
-                print(f"STDDEV: {statistics.stdev(latency):.5f}")
-        else:
-            print("Failed to scrape.")
+                print("Failed to scrape.")
 
-        print()
+            print()
         sleep(interval)
 
 
@@ -195,16 +198,36 @@ def period_snapshot(
 ########
 
 if __name__ == "__main__":
-    url = "https://news.google.com/"
+    urls = [
+        "https://www.google.com/",
+        "https://www.reddit.com/",
+        "https://www.whatsapp.com/"
+        "https://www.wikipedia.org/",
+        "https://www.yahoo.com/",
+        "https://www.yahoo.co.jp/",
+        "https://www.baidu.com/",
+        "https://www.netflix.com/",
+        "https://www.linkedin.com/",
+        "https://office.com/",
+        "https://www.naver.com/",
+        "https://news.yahoo.co.jp/",
+        "https://www.twitch.tv/",
+        "https://samsung.com/",
+        "https://www.globo.com/",
+        "https://www.fandom.com/",
+        "https://weather.com/",
+        "https://telegram.org/",
+    ]
+
     period_snapshot(
-        url,
-        seconds=30,
+        urls,
+        minutes=30,
         diff=True,
         iterations=20
     )
-    period_snapshot(
-        url,
-        seconds=30,
-        diff=False,
-        iterations=20
-    )
+    # period_snapshot(
+    #     urls,
+    #     minutes=30,
+    #     diff=False,
+    #     iterations=20
+    # )
