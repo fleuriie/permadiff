@@ -1,0 +1,1422 @@
+Attempting scrape of https://www.google.com/ at: 2024-12-10 17:42:37
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00248 seconds
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 17:42:37
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01301 seconds
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 17:42:38
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00624 seconds
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 17:42:38
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00303 seconds
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 17:42:38
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.028 seconds.
+Average: 0.02838 seconds
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 17:42:39
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00146 seconds
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 17:42:40
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00149 seconds
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 17:42:41
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.122 seconds.
+Average: 0.12188 seconds
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 17:42:41
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00260 seconds
+
+Attempting scrape of https://office.com/ at: 2024-12-10 17:42:42
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.005 seconds.
+Average: 0.00510 seconds
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 17:42:42
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00627 seconds
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 17:42:43
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00429 seconds
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 17:42:44
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.009 seconds.
+Average: 0.00865 seconds
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 17:42:44
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01037 seconds
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 17:42:46
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.028 seconds.
+Average: 0.02810 seconds
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 17:42:47
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00165 seconds
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 17:42:47
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.071 seconds.
+Average: 0.07098 seconds
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 17:42:47
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00088 seconds
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 18:12:48
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00241 seconds
+STDDEV: 0.00010
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 18:12:48
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.012 seconds.
+Average: 0.01259 seconds
+STDDEV: 0.00060
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 18:12:49
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.008 seconds.
+Average: 0.00693 seconds
+STDDEV: 0.00098
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 18:12:49
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00333 seconds
+STDDEV: 0.00043
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 18:12:49
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.027 seconds.
+Average: 0.02779 seconds
+STDDEV: 0.00084
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 18:12:50
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00147 seconds
+STDDEV: 0.00001
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 18:12:51
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00152 seconds
+STDDEV: 0.00003
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 18:12:52
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.118 seconds.
+Average: 0.11994 seconds
+STDDEV: 0.00275
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 18:12:53
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00224 seconds
+STDDEV: 0.00051
+
+Attempting scrape of https://office.com/ at: 2024-12-10 18:12:54
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00537 seconds
+STDDEV: 0.00038
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 18:12:54
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.009 seconds.
+Average: 0.00752 seconds
+STDDEV: 0.00176
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 18:12:55
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00512 seconds
+STDDEV: 0.00117
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 18:12:56
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.012 seconds.
+Average: 0.01017 seconds
+STDDEV: 0.00215
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 18:12:56
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01015 seconds
+STDDEV: 0.00032
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 18:12:57
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.031 seconds.
+Average: 0.02973 seconds
+STDDEV: 0.00231
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 18:12:58
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00171 seconds
+STDDEV: 0.00007
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 18:12:58
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.075 seconds.
+Average: 0.07324 seconds
+STDDEV: 0.00320
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 18:12:58
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00183 seconds
+STDDEV: 0.00134
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 18:42:59
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00276 seconds
+STDDEV: 0.00060
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 18:42:59
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01264 seconds
+STDDEV: 0.00043
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 18:43:00
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00697 seconds
+STDDEV: 0.00070
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 18:43:00
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00343 seconds
+STDDEV: 0.00035
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 18:43:00
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02820 seconds
+STDDEV: 0.00092
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 18:43:01
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00192 seconds
+STDDEV: 0.00078
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 18:43:02
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00160 seconds
+STDDEV: 0.00016
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 18:43:03
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.121 seconds.
+Average: 0.12043 seconds
+STDDEV: 0.00212
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 18:43:04
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00248 seconds
+STDDEV: 0.00056
+
+Attempting scrape of https://office.com/ at: 2024-12-10 18:43:05
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00550 seconds
+STDDEV: 0.00035
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 18:43:05
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.011 seconds.
+Average: 0.00877 seconds
+STDDEV: 0.00250
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 18:43:06
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.005 seconds.
+Average: 0.00518 seconds
+STDDEV: 0.00083
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 18:43:07
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.011 seconds.
+Average: 0.01035 seconds
+STDDEV: 0.00155
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 18:43:07
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01019 seconds
+STDDEV: 0.00024
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 18:43:08
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02962 seconds
+STDDEV: 0.00164
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 18:43:09
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00195 seconds
+STDDEV: 0.00043
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 18:43:09
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.072 seconds.
+Average: 0.07274 seconds
+STDDEV: 0.00242
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 18:43:09
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00158 seconds
+STDDEV: 0.00104
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 19:13:10
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00286 seconds
+STDDEV: 0.00053
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 19:13:10
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.012 seconds.
+Average: 0.01242 seconds
+STDDEV: 0.00057
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 19:13:11
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.008 seconds.
+Average: 0.00717 seconds
+STDDEV: 0.00069
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 19:13:11
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00345 seconds
+STDDEV: 0.00029
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 19:13:12
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.030 seconds.
+Average: 0.02870 seconds
+STDDEV: 0.00125
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 19:13:12
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00211 seconds
+STDDEV: 0.00074
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 19:13:13
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00144 seconds
+STDDEV: 0.00035
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 19:13:14
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.121 seconds.
+Average: 0.12067 seconds
+STDDEV: 0.00180
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 19:13:15
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00259 seconds
+STDDEV: 0.00050
+
+Attempting scrape of https://office.com/ at: 2024-12-10 19:13:15
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00557 seconds
+STDDEV: 0.00032
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 19:13:16
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00826 seconds
+STDDEV: 0.00229
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 19:13:16
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00560 seconds
+STDDEV: 0.00108
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 19:13:17
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01093 seconds
+STDDEV: 0.00172
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 19:13:17
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01016 seconds
+STDDEV: 0.00020
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 19:13:19
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02941 seconds
+STDDEV: 0.00141
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 19:13:20
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00196 seconds
+STDDEV: 0.00035
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 19:13:20
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.071 seconds.
+Average: 0.07231 seconds
+STDDEV: 0.00215
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 19:13:20
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00160 seconds
+STDDEV: 0.00085
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 19:43:21
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00311 seconds
+STDDEV: 0.00073
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 19:43:21
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.012 seconds.
+Average: 0.01233 seconds
+STDDEV: 0.00053
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 19:43:22
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.008 seconds.
+Average: 0.00735 seconds
+STDDEV: 0.00072
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 19:43:22
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00345 seconds
+STDDEV: 0.00025
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 19:43:22
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02882 seconds
+STDDEV: 0.00112
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 19:43:23
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00210 seconds
+STDDEV: 0.00064
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 19:43:24
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00164 seconds
+STDDEV: 0.00054
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 19:43:25
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.121 seconds.
+Average: 0.12080 seconds
+STDDEV: 0.00158
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 19:43:26
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00260 seconds
+STDDEV: 0.00044
+
+Attempting scrape of https://office.com/ at: 2024-12-10 19:43:26
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.005 seconds.
+Average: 0.00550 seconds
+STDDEV: 0.00032
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 19:43:27
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.009 seconds.
+Average: 0.00831 seconds
+STDDEV: 0.00198
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 19:43:28
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00562 seconds
+STDDEV: 0.00094
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 19:43:29
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01085 seconds
+STDDEV: 0.00150
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 19:43:29
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.011 seconds.
+Average: 0.01030 seconds
+STDDEV: 0.00035
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 19:43:30
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02929 seconds
+STDDEV: 0.00125
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 19:43:31
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00193 seconds
+STDDEV: 0.00031
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 19:43:31
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.066 seconds.
+Average: 0.07113 seconds
+STDDEV: 0.00323
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 19:43:31
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00181 seconds
+STDDEV: 0.00087
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 20:13:32
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00316 seconds
+STDDEV: 0.00066
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 20:13:32
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01246 seconds
+STDDEV: 0.00056
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 20:13:34
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00726 seconds
+STDDEV: 0.00068
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 20:13:34
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00350 seconds
+STDDEV: 0.00025
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 20:13:34
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02882 seconds
+STDDEV: 0.00100
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 20:13:35
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00207 seconds
+STDDEV: 0.00058
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 20:13:36
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00172 seconds
+STDDEV: 0.00052
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 20:13:37
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.124 seconds.
+Average: 0.12126 seconds
+STDDEV: 0.00180
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 20:13:38
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00262 seconds
+STDDEV: 0.00040
+
+Attempting scrape of https://office.com/ at: 2024-12-10 20:13:39
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00562 seconds
+STDDEV: 0.00040
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 20:13:39
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.009 seconds.
+Average: 0.00843 seconds
+STDDEV: 0.00180
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 20:13:40
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00522 seconds
+STDDEV: 0.00129
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 20:13:41
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.009 seconds.
+Average: 0.01059 seconds
+STDDEV: 0.00148
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 20:13:41
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01022 seconds
+STDDEV: 0.00037
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 20:13:43
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02921 seconds
+STDDEV: 0.00113
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 20:13:43
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00191 seconds
+STDDEV: 0.00028
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 20:13:43
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.071 seconds.
+Average: 0.07118 seconds
+STDDEV: 0.00289
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 20:13:44
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00177 seconds
+STDDEV: 0.00078
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 20:43:44
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00328 seconds
+STDDEV: 0.00068
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 20:43:44
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01252 seconds
+STDDEV: 0.00054
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 20:43:45
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00722 seconds
+STDDEV: 0.00063
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 20:43:46
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00341 seconds
+STDDEV: 0.00032
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 20:43:46
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02883 seconds
+STDDEV: 0.00091
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 20:43:47
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00203 seconds
+STDDEV: 0.00054
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 20:43:48
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00173 seconds
+STDDEV: 0.00047
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 20:43:49
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.123 seconds.
+Average: 0.12150 seconds
+STDDEV: 0.00176
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 20:43:50
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00268 seconds
+STDDEV: 0.00039
+
+Attempting scrape of https://office.com/ at: 2024-12-10 20:43:50
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00581 seconds
+STDDEV: 0.00064
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 20:43:51
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.009 seconds.
+Average: 0.00844 seconds
+STDDEV: 0.00164
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 20:43:51
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00529 seconds
+STDDEV: 0.00119
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 20:43:52
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01053 seconds
+STDDEV: 0.00136
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 20:43:53
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01019 seconds
+STDDEV: 0.00034
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 20:43:54
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02916 seconds
+STDDEV: 0.00104
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 20:43:55
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00204 seconds
+STDDEV: 0.00042
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 20:43:55
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.074 seconds.
+Average: 0.07153 seconds
+STDDEV: 0.00280
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 20:43:56
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00174 seconds
+STDDEV: 0.00072
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 21:13:57
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00327 seconds
+STDDEV: 0.00063
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 21:13:57
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.012 seconds.
+Average: 0.01246 seconds
+STDDEV: 0.00053
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 21:13:57
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00707 seconds
+STDDEV: 0.00072
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 21:13:58
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00346 seconds
+STDDEV: 0.00033
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 21:13:58
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02882 seconds
+STDDEV: 0.00085
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 21:13:59
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00207 seconds
+STDDEV: 0.00051
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 21:14:00
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00171 seconds
+STDDEV: 0.00044
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 21:14:04
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.123 seconds.
+Average: 0.12173 seconds
+STDDEV: 0.00177
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 21:14:05
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00275 seconds
+STDDEV: 0.00041
+
+Attempting scrape of https://office.com/ at: 2024-12-10 21:14:05
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.005 seconds.
+Average: 0.00566 seconds
+STDDEV: 0.00074
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 21:14:06
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.00861 seconds
+STDDEV: 0.00159
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 21:14:06
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00544 seconds
+STDDEV: 0.00118
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 21:14:07
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.011 seconds.
+Average: 0.01060 seconds
+STDDEV: 0.00128
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 21:14:07
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.011 seconds.
+Average: 0.01035 seconds
+STDDEV: 0.00055
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 21:14:09
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02911 seconds
+STDDEV: 0.00097
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 21:14:10
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00214 seconds
+STDDEV: 0.00047
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 21:14:10
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.071 seconds.
+Average: 0.07142 seconds
+STDDEV: 0.00261
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 21:14:11
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00187 seconds
+STDDEV: 0.00076
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 21:44:11
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00335 seconds
+STDDEV: 0.00064
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 21:44:12
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01246 seconds
+STDDEV: 0.00050
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 21:44:12
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00697 seconds
+STDDEV: 0.00073
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 21:44:13
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00353 seconds
+STDDEV: 0.00037
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 21:44:13
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02885 seconds
+STDDEV: 0.00080
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 21:44:14
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00215 seconds
+STDDEV: 0.00053
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 21:44:15
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.001 seconds.
+Average: 0.00168 seconds
+STDDEV: 0.00042
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 21:44:16
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.122 seconds.
+Average: 0.12178 seconds
+STDDEV: 0.00166
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 21:44:17
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00277 seconds
+STDDEV: 0.00039
+
+Attempting scrape of https://office.com/ at: 2024-12-10 21:44:18
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.007 seconds.
+Average: 0.00579 seconds
+STDDEV: 0.00079
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 21:44:18
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.014 seconds.
+Average: 0.00917 seconds
+STDDEV: 0.00226
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 21:44:19
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00527 seconds
+STDDEV: 0.00122
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 21:44:20
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.012 seconds.
+Average: 0.01075 seconds
+STDDEV: 0.00127
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 21:44:20
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01032 seconds
+STDDEV: 0.00053
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 21:44:22
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02906 seconds
+STDDEV: 0.00092
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 21:44:22
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00214 seconds
+STDDEV: 0.00044
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 21:44:22
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.071 seconds.
+Average: 0.07133 seconds
+STDDEV: 0.00246
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 21:44:23
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00202 seconds
+STDDEV: 0.00084
+
+Attempting scrape of https://www.google.com/ at: 2024-12-10 22:14:23
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00332 seconds
+STDDEV: 0.00061
+
+Attempting scrape of https://www.reddit.com/ at: 2024-12-10 22:14:24
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01253 seconds
+STDDEV: 0.00052
+
+Attempting scrape of https://www.whatsapp.com/ at: 2024-12-10 22:14:24
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.008 seconds.
+Average: 0.00712 seconds
+STDDEV: 0.00083
+
+Attempting scrape of https://www.wikipedia.org/ at: 2024-12-10 22:14:25
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.004 seconds.
+Average: 0.00355 seconds
+STDDEV: 0.00035
+
+Attempting scrape of https://www.yahoo.com/ at: 2024-12-10 22:14:25
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02886 seconds
+STDDEV: 0.00075
+
+Attempting scrape of https://www.yahoo.co.jp/ at: 2024-12-10 22:14:25
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00213 seconds
+STDDEV: 0.00051
+
+Attempting scrape of https://www.baidu.com/ at: 2024-12-10 22:14:27
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00172 seconds
+STDDEV: 0.00042
+
+Attempting scrape of https://www.netflix.com/ at: 2024-12-10 22:14:28
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.122 seconds.
+Average: 0.12176 seconds
+STDDEV: 0.00156
+
+Attempting scrape of https://www.linkedin.com/ at: 2024-12-10 22:14:29
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00273 seconds
+STDDEV: 0.00039
+
+Attempting scrape of https://office.com/ at: 2024-12-10 22:14:29
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.006 seconds.
+Average: 0.00576 seconds
+STDDEV: 0.00075
+
+Attempting scrape of https://www.naver.com/ at: 2024-12-10 22:14:30
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.00922 seconds
+STDDEV: 0.00213
+
+Attempting scrape of https://news.yahoo.co.jp/ at: 2024-12-10 22:14:30
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00509 seconds
+STDDEV: 0.00128
+
+Attempting scrape of https://www.twitch.tv/ at: 2024-12-10 22:14:32
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.013 seconds.
+Average: 0.01095 seconds
+STDDEV: 0.00137
+
+Attempting scrape of https://samsung.com/ at: 2024-12-10 22:14:32
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.010 seconds.
+Average: 0.01028 seconds
+STDDEV: 0.00051
+
+Attempting scrape of https://www.globo.com/ at: 2024-12-10 22:14:33
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.029 seconds.
+Average: 0.02901 seconds
+STDDEV: 0.00089
+
+Attempting scrape of https://www.fandom.com/ at: 2024-12-10 22:14:34
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.002 seconds.
+Average: 0.00212 seconds
+STDDEV: 0.00042
+
+Attempting scrape of https://weather.com/ at: 2024-12-10 22:14:34
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.071 seconds.
+Average: 0.07131 seconds
+STDDEV: 0.00232
+
+Attempting scrape of https://telegram.org/ at: 2024-12-10 22:14:34
+200
+Scraped successfully.
+Raw saved.
+Latency: 0.003 seconds.
+Average: 0.00209 seconds
+STDDEV: 0.00082
+

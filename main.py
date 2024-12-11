@@ -160,7 +160,7 @@ def period_snapshot(
     # run scrape_url every <seconds> seconds
     # and diff_save the result
 
-    latency = []
+    latency = {}
 
     iteration = 0
     while iterations == -1 or iteration < iterations:
@@ -181,11 +181,14 @@ def period_snapshot(
                 else:
                     save(result, diff=False)
                     print("Raw saved.")
-                latency.append(time() - start)
-                print(f"Latency: {latency[-1]:.3f} seconds.")
-                print(f"Average: {sum(latency)/len(latency):.5f} seconds")
-                if len(latency) > 1:
-                    print(f"STDDEV: {statistics.stdev(latency):.5f}")
+                if url not in latency:
+                    latency[url] = []
+                latency[url].append(time() - start)
+                print(f"Latency: {latency[url][-1]:.3f} seconds.")
+                print(
+                    f"Average: {sum(latency[url])/len(latency[url]):.5f} seconds")
+                if len(latency[url]) > 1:
+                    print(f"STDDEV: {statistics.stdev(latency[url]):.5f}")
             else:
                 print("Failed to scrape.")
 
@@ -201,7 +204,7 @@ if __name__ == "__main__":
     urls = [
         "https://www.google.com/",
         "https://www.reddit.com/",
-        "https://www.whatsapp.com/"
+        "https://www.whatsapp.com/",
         "https://www.wikipedia.org/",
         "https://www.yahoo.com/",
         "https://www.yahoo.co.jp/",
